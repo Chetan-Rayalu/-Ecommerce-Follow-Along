@@ -34,7 +34,7 @@ const Signup = () => {
     localStorage.setItem("user", JSON.stringify(userData));
 
     console.log("Signup successful! You can now log in.");
-    navigate("/login");
+    navigate("/");
   };
 
   return (
@@ -98,7 +98,7 @@ const Signup = () => {
             </button>
 
             <div className="text-center">
-              Already have an account? <Link to="/login" className="text-blue-600">Sign In</Link>
+              Already have an account? <Link to="/" className="text-blue-600">Sign In</Link>
             </div>
           </form>
         </div>
