@@ -104,4 +104,26 @@ In this milestone, we've added a Home Page to our e-commerce application, where 
 #### Summary:
 This milestone focuses on creating an engaging Home Page where users can easily browse and explore our products. By adding responsive design. we have significantly improved the user experience. This update marks an essential step in making our e-commerce application user-friendly and visually appealing.
 
+# 🛍️ Product Management Frontend (Milestone 9)
+
+A React.js frontend to interact with the **Product API** (Milestone 10). Users can add and view products in a simple UI.
+
+## 🚀 Features
+- Display a form to add products.
+- Form to add a new product.
+- Connects to **Express & MongoDB API** (Milestone 10).
+
+
+# 🛒 Product API (Milestone 10)
+
+A simple Express & MongoDB API to store product details with validation using Mongoose.
+
+## 🚀 Features
+- Create a product with **name, description, price, and image URL**.
+- Validates input before storing data in MongoDB.
+- RESTful **POST endpoint** to add products.
+
+
+
+
 
