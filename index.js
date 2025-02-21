@@ -19,7 +19,7 @@ mongoose
 
 // Basic Route
 app.get("/", (req, res) => {
-  res.send("Hello Bhavdeep, MongoDB is connected!");
+  res.send("Hello Chetan, MongoDB is connected!");
 });
 
 
