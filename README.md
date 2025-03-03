@@ -153,3 +153,9 @@ In this milestone, we created a "My Products" page that displays all the product
 ## Learning Goals 🎯
 - Write an endpoint to update existing data in MongoDB.
 - Autofill forms with previous data for editing.
+
+# Milestone 14: Delete Product Functionality
+
+## Learning Goals 🎯
+- Write an endpoint to update existing data in MongoDB.
+- Deletes the product from the page
