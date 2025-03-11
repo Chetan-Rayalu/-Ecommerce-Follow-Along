@@ -159,3 +159,11 @@ In this milestone, we created a "My Products" page that displays all the product
 ## Learning Goals 🎯
 - Write an endpoint to update existing data in MongoDB.
 - Deletes the product from the page
+
+## Milestone 15: Navbar Component for Every Screen Page in Frontend
+
+In this milestone, we created an Navbar Component for every screen with page like Home, My Products, Add product, cart,etc.,
+
+- Added Navbar for all pages includes HomePage, Products page, login/Signup page, and Product form
+
+- Made full responsive for both desktop and mobile view and styled using tailwind CSS

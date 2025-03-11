@@ -1,6 +1,6 @@
 function Showcase() {
   return (
-    <div className="bg-gray-700 flex justify-center items-center py-6">
+    <div className="bg-red-700 flex justify-center items-center py-6">
       <img
         src="https://cdn.wallpapersafari.com/52/51/7mHcsM.jpg"
         alt="Showcase"
