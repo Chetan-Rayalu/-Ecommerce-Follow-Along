@@ -178,3 +178,8 @@ In this milestone, we created a product information page that displays detailed 
 - Applied a professional dark blue theme using Tailwind CSS.
 
 - Implemented event handlers for quantity changes, add-to-cart, buy-now, and like actions.
+
+# 🛒 **Milestone 17: Cart Functionality in Node.js + MongoDB**
+
+This project adds **cart functionality** to an existing **Node.js + MongoDB** application. The functionality includes creating a cart, adding products to the cart, retrieving cart details, and removing products from the cart.
+Here’s a professional **README.md** file tailored for **Milestone 18** — Fetching products inside a cart using the user's email:
