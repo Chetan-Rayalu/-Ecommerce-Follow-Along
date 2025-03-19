@@ -204,3 +204,25 @@ In this milestone, we implemented a cart system with both frontend and backend f
      - Product Image
      - Quantity Counter with `+` and `-` buttons.
 
+
+     
+# Milestone 20: Profile Page and User Data API
+
+## Overview 📝
+In this milestone, we implemented a **profile page** and a **backend endpoint** to enhance user experience and manage user data. The profile page displays key user information such as profile photo, name, email, and address. It allows adding new addresses while handling cases where no addresses exist.
+
+## Key Features 🚀
+1. **Backend Endpoint**:
+   - Created an endpoint to retrieve all user data.
+   - Supports sending user data via email (optional, as per requirements).
+   
+2. **Frontend Profile Page**:
+   - Displays:
+     - **Profile Photo**, **Name**, and **Email** in one section.
+     - **Address** in another section.
+   - Provides an option to **Add Address**.
+   - Displays a fallback message "No address found" if no addresses are available.
+
+3. **Dynamic Design**:
+   - The profile page is designed with responsiveness and usability in mind.
+
