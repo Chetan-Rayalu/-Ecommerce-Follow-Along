@@ -183,3 +183,8 @@ In this milestone, we created a product information page that displays detailed 
 
 This project adds **cart functionality** to an existing **Node.js + MongoDB** application. The functionality includes creating a cart, adding products to the cart, retrieving cart details, and removing products from the cart.
 Here’s a professional **README.md** file tailored for **Milestone 18** — Fetching products inside a cart using the user's email:
+
+## 🛒 **Milestone 18: Fetch Products in Cart using User Email**
+
+This project adds functionality to **fetch products inside a user's cart** using their **email**. The backend endpoint retrieves cart data, including full product details, and returns it in a structured format to display on the cart page.
+
