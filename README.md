@@ -226,3 +226,19 @@ In this milestone, we implemented a **profile page** and a **backend endpoint** 
 3. **Dynamic Design**:
    - The profile page is designed with responsiveness and usability in mind.
 
+   # Milestone 21: Form to add user Address 
+
+## Project Overview
+This project implements an address form page where users can input and submit their address details. It includes the following fields:
+- Country
+- City
+- Address Line 1
+- Address Line 2
+- Zip Code
+- Address Type (Home/Office/Other)
+
+## Features
+- Address form with state to store user inputs.
+- Navigation to the address form page when "Add Address" is clicked in the profile section.
+- Data logging upon form submission (console output for demonstration).
+
