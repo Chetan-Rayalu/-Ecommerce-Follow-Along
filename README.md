@@ -148,6 +148,10 @@ In this milestone, we created a "My Products" page that displays all the product
 - **Frontend**: Created a function to retrieve and display products dynamically.
 - **Component**: Utilized the `Card` component to present each product.
 
+Got it! Here’s a simplified version of the README file without code:
+
+---
+
 # Milestone 13: Edit Product Functionality
 
 ## Learning Goals 🎯
@@ -160,24 +164,34 @@ In this milestone, we created a "My Products" page that displays all the product
 - Write an endpoint to update existing data in MongoDB.
 - Deletes the product from the page
 
-## Milestone 15: Navbar Component for Every Screen Page in Frontend
+Great, you're working on Milestone 15 of your follow-along project. Here’s a short README file tailored to your milestone:
 
-In this milestone, we created an Navbar Component for every screen with page like Home, My Products, Add product, cart,etc.,
+---
 
-- Added Navbar for all pages includes HomePage, Products page, login/Signup page, and Product form
+# Milestone 15: Responsive navbar added
 
-- Made full responsive for both desktop and mobile view and styled using tailwind CSS
+### Description
+This milestone involves creating a responsive Navbar component with links to all pages in your application and ensuring smooth and easy navigation.
 
+### Learning Goals 🎯
+By the end of this milestone, you will:
+- Learn how to create a Nav component.
+- Understand how to reuse the same component across multiple pages.
 
-## Milestone 16: Product Info Page
+### Features
+- Links to Home, Add product, and Cart pages.
+- Responsive design for all screen sizes.
+- Reusable Navbar component.
 
-In this milestone, we created a product information page that displays detailed product data and includes features like quantity selection, add-to-cart, buy-now, and a like button.
+# Milestone 16: Product in detail Page is added
 
-- Implemented a product info page that fetches and displays detailed product information based on the product ID from the URL.
+### Description
+This milestone involves creating a Page where it contains more detailed information about the product
 
-- Applied a professional dark blue theme using Tailwind CSS.
-
-- Implemented event handlers for quantity changes, add-to-cart, buy-now, and like actions.
+### Features
+- Links to Buy, Cart pages.
+- Responsive design for all screen sizes.
+- Shows similar products at bottom of Page.
 
 # 🛒 **Milestone 17: Cart Functionality in Node.js + MongoDB**
 
@@ -187,8 +201,6 @@ Here’s a professional **README.md** file tailored for **Milestone 18** — Fet
 ## 🛒 **Milestone 18: Fetch Products in Cart using User Email**
 
 This project adds functionality to **fetch products inside a user's cart** using their **email**. The backend endpoint retrieves cart data, including full product details, and returns it in a structured format to display on the cart page.
-
-
 
 # Milestone 19: Cart Functionality Implementation
 
@@ -205,7 +217,6 @@ In this milestone, we implemented a cart system with both frontend and backend f
      - Quantity Counter with `+` and `-` buttons.
 
 
-     
 # Milestone 20: Profile Page and User Data API
 
 ## Overview 📝
@@ -226,7 +237,7 @@ In this milestone, we implemented a **profile page** and a **backend endpoint** 
 3. **Dynamic Design**:
    - The profile page is designed with responsiveness and usability in mind.
 
-   # Milestone 21: Form to add user Address 
+# Milestone 21: Form to add user Address 
 
 ## Project Overview
 This project implements an address form page where users can input and submit their address details. It includes the following fields:
@@ -242,3 +253,16 @@ This project implements an address form page where users can input and submit th
 - Navigation to the address form page when "Add Address" is clicked in the profile section.
 - Data logging upon form submission (console output for demonstration).
 
+# Milestone 22: Creating Backend Endpoint to Store Address
+
+## Project Overview
+This project focuses on creating a backend endpoint to receive address data from a frontend form and save it in the user's address array inside the database. It helps you understand how to design and implement such endpoints.
+
+## Learning Goals ✨
+- Create a backend API endpoint.
+- Understand how to receive data from a frontend form.
+- Modify and save data within a database collection.
+
+## Features
+- **Address Submission**: Accepts address details submitted via the frontend form.
+- **Data Storage**: Adds the submitted address to the `addresses` array in the user's collection in the database.
