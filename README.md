@@ -295,3 +295,45 @@ Create an order confirmation page as part of the frontend where the user can:
 3. **Cart Total**: The total value of all items in the cart is calculated and shown to the user.
 4. **Place Order Button**: A button at the bottom of the page allows users to finalize their order.
 
+# Milestone 25: Backend Endpoint for Placing Orders 🌟
+
+## Learning Goals 🎯
+By completing this milestone, we aim to:
+- Create a backend endpoint to help in placing orders.
+- Enhance skills in handling and storing user-specific data in MongoDB.
+
+
+## Task Steps 📝
+1. **Endpoint Creation**:
+   - Developed an API endpoint that accepts products, user details, and address information.
+
+2. **Retrieve User ID**:
+   - Used the user's email to fetch their `_id` from the database.
+
+3. **Store Orders**:
+   - Created separate orders for each product using the same address.
+   - Stored order details in the **MongoDB order collection** using the pre-existing order schema.
+
+4. **Completion**:
+   - Successfully implemented an endpoint to handle order placement efficiently.
+
+# Milestone 26: Create Backend Endpoint for Place Order 🌟
+
+## Learning Goals 🎯
+By completing this milestone, we have achieved:
+- Developed a backend endpoint to retrieve all orders for a specific user.
+- Enhanced our understanding of handling user-specific data in backend systems.
+
+
+## Steps Implemented 📝
+1. **Endpoint Creation**:
+   - Built an API endpoint that accepts the user's email as input.
+
+2. **Retrieve User ID**:
+   - Fetched the `_id` of the user using the provided email from the database.
+
+3. **Fetch Orders**:
+   - Queried the database to get all the orders associated with the retrieved `_id`.
+
+4. **Response**:
+   - Sent the retrieved orders in the response.
