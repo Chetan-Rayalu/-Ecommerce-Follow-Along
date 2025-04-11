@@ -337,3 +337,78 @@ By completing this milestone, we have achieved:
 
 4. **Response**:
    - Sent the retrieved orders in the response.
+
+
+# Milestone 27: My Orders Page
+
+## Overview
+In this milestone, we created a **frontend page** to display all the user orders. This implementation improves navigation and provides users with a seamless way to view their order details.
+
+## Features
+- **My Orders Page**: A dedicated page for displaying all user orders.
+- **API Integration**: Sends a `GET` request to the `my-orders` endpoint to fetch user order data.
+- **Navbar Integration**: Added a link to the navbar for easier navigation to the `my-orders` page.
+
+## Steps Implemented
+1. **Created the My Orders Page**:
+   - Designed a new frontend page to showcase user order details.
+
+2. **API Request**:
+   - Configured a `GET` request to the `my-orders` endpoint.
+   - Passed the user's email as a parameter to fetch their orders.
+
+3. **Data Display**:
+   - Rendered all retrieved orders dynamically on the `my-orders` page.
+
+4. **Navbar Update**:
+   - Added a link to the `my-orders` page in the navbar for better accessibility.
+
+
+# Milestone 28: Cancel Orders Feature
+
+## Overview
+- Cancel placed orders through the "My Orders" page.
+
+### Frontend
+1. **Add a Cancel Order Button:**
+   - In the "My Orders" page, add a **Cancel Order** button for every order listed.
+   - Ensure the cancel button is **not displayed** if the order is already canceled.
+
+### Backend
+1. **Create a New Endpoint:**
+   - Create an endpoint to handle the cancelation of orders.
+   - The endpoint will:
+     - Accept the `order-id` as input.
+     - Fetch the order based on the provided ID.
+     - Update the order's status to `canceled`.
+     - Save the updated order.
+
+# Milestone 29: Integrate Online Payments with PayPal API
+
+## Overview
+- Learn how to use the PayPal API.
+- Understand how to integrate online payment gateways into your application.
+
+---
+
+## 📝 Steps for Implementation
+
+### 1. Set Up PayPal Sandbox Account
+- Create a PayPal account using the [PayPal Developer Dashboard](https://developer.paypal.com/).
+- Log in and navigate to **Sandbox Accounts**.
+- Copy the **UserID** of the sandbox account and save it for later use.
+- Locate the **Client ID** in the sandbox account and save it securely.
+
+---
+
+### 2. Update the Order Confirmation Page
+- In your application’s **Order Confirmation Page**, include two payment options:
+  1. **Cash on Delivery (COD)**
+  2. **Online Payment**
+- Add **radio buttons** for users to select between these payment methods.
+
+---
+
+### 3. Display PayPal Buttons
+- When the **Online Payment** option is selected, dynamically display the PayPal buttons.
+- The PayPal buttons will be integrated in the next milestone.
